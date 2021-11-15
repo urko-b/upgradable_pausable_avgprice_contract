@@ -1,0 +1,34 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# OpenZeppelin
+.openzeppelin/dev-*.json
+.openzeppelin/.session
+
+# dependencies
+/node_modules
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+yarn.lock
+package-lock.json
+
+.openzeppelin\.session
+
+node_modules
+.env
+coverage
+coverage.json
+typechain
+
+#Hardhat files
+cache
+artifacts
+secrets.json
